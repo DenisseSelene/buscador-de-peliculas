@@ -1,0 +1,22 @@
+
+.movieCard {
+    color: pink;
+    list-style: none;
+}
+
+.movieCard:hover {
+    background-color: palevioletred;
+    transition-duration: 1s;
+    transform: scale(2);
+}
+
+.movieImg {
+    background-color: pink;
+}
+
+@media (max-width: 560px ){
+    .movieImg {
+        width: 90%;
+        height: auto;   
+    }  
+}
